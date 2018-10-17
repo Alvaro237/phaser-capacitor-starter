@@ -1,0 +1,6 @@
+{
+  "appId": "es.apizana.phasercapacitor",
+  "appName": "Phaser-capacitor",
+  "bundledWebRuntime": false,
+  "webDir": "dist"
+}

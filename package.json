@@ -1,0 +1,44 @@
+{
+  "name": "phaser-capacitor-starter",
+  "version": "1.0.0",
+  "description": "Minimal starter project for Phaser with Capacitor capabilites.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alvaro237/phaser-capacitor-starter.git"
+  },
+  "author": {
+    "name": "Alvaro Alcaraz Pizana",
+    "email": "alvaro.alcaraz.pizana@gmail.com",
+    "url": "https://apizana.es"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alvaro237/phaser-capacitor-starter/issues"
+  },
+  "homepage": "https://github.com/Alvaro237/phaser-capacitor-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "del /S /Q dist && webpack --mode production"
+  },
+  "dependencies": {
+    "@capacitor/android": "^1.0.0-beta.8",
+    "@capacitor/cli": "^1.0.0-beta.8",
+    "@capacitor/core": "^1.0.0-beta.8",
+    "phaser": "^3.15.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
