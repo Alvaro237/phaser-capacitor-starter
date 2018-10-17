@@ -28,7 +28,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "del /S /Q dist && webpack --mode production"
+    "build": "del /S /Q dist && webpack --mode production",
+	"capacitor-build": "npx cap copy android && npx cap open android"
   },
   "dependencies": {
     "@capacitor/android": "^1.0.0-beta.8",
